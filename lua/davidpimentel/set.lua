@@ -19,4 +19,6 @@ vim.opt.termguicolors = true
 
 vim.opt.autoread = true
 
-vim.opt.clipboard = "unnamedplus"
+-- disable netrw, we're using nvim-tree
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1

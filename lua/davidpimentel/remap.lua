@@ -12,3 +12,6 @@ local telescope_mappings = {
 }
 
 which_key.add(telescope_mappings)
+
+-- remove highlight when you hit esc
+vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<cr>", { desc = "Clear search highlight" })
