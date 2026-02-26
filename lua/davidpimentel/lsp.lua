@@ -4,6 +4,7 @@ vim.lsp.enable('dartls')
 vim.lsp.enable('astro-ls')
 vim.lsp.enable('gopls')
 vim.lsp.enable('tailwind')
+vim.lsp.enable('prisma')
 
 vim.api.nvim_create_autocmd('LspAttach', {
   callback = function(ev)

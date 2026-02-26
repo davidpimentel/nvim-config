@@ -9,6 +9,7 @@ local telescope_mappings = {
   { "<C-p>",      telescope_builtin.commands,    desc = "Search commands" },
   { "<leader>fb", telescope_builtin.buffers,     desc = "Search buffers" },
   { "<leader>fd", telescope_builtin.diagnostics, desc = "Search diagnostics" },
+  { "<leader>gs", telescope_builtin.git_status,  desc = "Show git status files" },
 }
 
 which_key.add(telescope_mappings)

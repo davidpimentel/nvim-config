@@ -6,7 +6,7 @@ return {
 
     configs.setup({
       ensure_installed = {
-        "lua", "vim", "vimdoc", "javascript", "html", "python", "typescript", "dart", "astro"
+        "lua", "vim", "vimdoc", "javascript", "html", "python", "typescript", "dart", "astro", "prisma"
       },
       sync_install = false,
       highlight = { enable = true },
